@@ -20,7 +20,7 @@
     "compile": "gulp compile-extension:css-language-features-client compile-extension:css-language-features-server",
     "watch": "gulp watch-extension:css-language-features-client watch-extension:css-language-features-server",
     "test": "mocha",
-    "postinstall": "cd server && yarn install",
+    "postinstall": "cd server && npm install",
     "install-client-next": "yarn add vscode-languageclient@next"
   },
   "categories": [
