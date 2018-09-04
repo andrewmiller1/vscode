@@ -19,7 +19,7 @@
   "scripts": {
     "compile": "gulp compile-extension:html-language-features-client compile-extension:html-language-features-server",
     "watch": "gulp watch-extension:html-language-features-client watch-extension:html-language-features-server",
-    "postinstall": "cd server && yarn install",
+    "postinstall": "cd server && npm install",
     "install-client-next": "yarn add vscode-languageclient@next"
   },
   "categories": [
